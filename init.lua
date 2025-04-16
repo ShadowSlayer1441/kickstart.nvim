@@ -1008,7 +1008,5 @@ require('lazy').setup({
 -- vim: ts=2 sts=2 sw=2 et
 
 -- Below is my custom changes
--- Python setup
--- seting up python provider to avoid complaints
+-- Python Provider Setup
 vim.g.python3_host_prog = '/var/home/pauls/.config/nvim/venv/bin/python'
-
